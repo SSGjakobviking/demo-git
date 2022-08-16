@@ -2,17 +2,19 @@
 
 
 ## First time setup
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+`git config --global user.name "John Doe"`
+`git config --global user.email "johndoe@example.com"`
 
 
 ## Create own from scratch
-git init
+`git init`
 
 ## Add files 
-git add *.c
-git add LICENSE
-git commit -m 'Initial project version'
+`git add README.md`
+`git commit -m "first commit"`
+`git branch -M main`
+`git remote add origin https://github.com/SSGjakobviking/demo-git.git`
+`git push -u origin main`
 
 
 ## Clone existing repository
