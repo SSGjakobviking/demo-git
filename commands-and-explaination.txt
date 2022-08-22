@@ -1,0 +1,68 @@
+This command sets the author name and email address respectively to be used with your commits.
+git config –global user.name “[name]”
+git config –global user.email “[email address]”
+
+
+This command is used to start a new repository.
+git init [repository name]
+
+
+This command is used to obtain a repository from an existing URL.
+git clone [url]
+
+
+This command adds one or all file(s) to the staging area.
+git add [file]
+git add *
+
+
+This command records or snapshots the file permanently in the version history.
+git commit -m “[ Type in the commit message]”
+
+
+This command shows the file differences which are not yet staged.
+git diff
+
+
+This command shows the differences between the two branches mentioned.
+git diff [first branch] [second branch]
+
+
+This command unstages the file, but it preserves the file contents.
+git reset [file]
+
+
+This command lists all the files that have to be committed.
+git status
+
+
+This command is used to list the version history for the current branch.
+git log
+
+
+This command merges the specified branch’s history into the current branch.
+git merge [branch name]
+
+
+This command sends the branch commits to your remote repository.
+git push [variable name] [branch]
+
+
+This command fetches and merges changes on the remote server to your working directory.
+git pull [Repository Link]
+
+
+This command creates a new branch
+git branch [new branch name]
+
+
+This command switches branches 
+git switch [branch]
+
+
+This command restores the working tree files
+git restore
+
+
+This command is used to connect your local repository to the remote server.
+git remote add [variable name] [Remote Server Link]
